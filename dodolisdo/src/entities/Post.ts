@@ -9,7 +9,7 @@ import {
   
 Index('id', ['id'], {});
 @Entity({ schema: 'dodolisdo', name: 'posts' })
-export class Room extends BaseEntity {
+export class Post extends BaseEntity {
     @PrimaryGeneratedColumn({ type: 'int', name: 'id' })
     id: number;
   

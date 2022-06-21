@@ -1,6 +1,6 @@
-import { Post } from '@nestjs/common';
 import { TypeOrmModuleOptions } from '@nestjs/typeorm';
 import * as dotenv from 'dotenv';
+import { Post } from 'src/entities/Post';
 
 dotenv.config();
 const config: TypeOrmModuleOptions = {
